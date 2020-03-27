@@ -1,0 +1,102 @@
+.intro-about {
+    background-color: #3e3e3e;
+    height: 350px;
+    color: #fff;
+    padding-top: 8%;
+    text-align: center;
+    background-image: url("../../Piroll/images/10.jpg");
+    background-size: cover;
+    opacity: 0.8;
+}
+.intro-about .ttl {
+	font-size: 38px;
+	font-weight: bold;
+	margin-bottom: 17px;
+}
+.intro-about .desc {
+	font-size: 18px;
+	font-family: NunitoSans;
+}
+
+.achievement {
+    background-color: #39b4af;
+    height: 240px;
+}
+.achievement .holder {
+    display: flex;
+}
+.achievement .item {
+    flex: 1;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 95px;
+}
+.achievement .item i {
+    font-size: 40px;
+    float: left;
+    margin-right: 28px;
+}
+.achievement .item .num{
+    font-size: 12px;
+    font-weight: bold;
+}
+.achievement .item .desc{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 7px;
+}
+
+
+.about {
+    height: 560px;
+    display: flex;
+}
+.about .img {
+    width: 50%;
+    height: 100%;
+}
+.about .img img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: center center;
+}
+.about .content {text-align: left;padding-top: 10%;margin-left: 83px;}
+.about .content .ttl {
+    font-size: 30px;
+    font-weight: bold;
+}
+.about .content .decs {
+    margin: 30px 0px;
+    font-size: 16px;
+    color: #787878;
+    font-family: NunitoSans;
+}
+.about .content .sign {
+    margin-top: 30px;
+}
+
+.preview-project {
+	/* height: 200px; */
+	text-align: center;
+	/* border: 1px solid; */
+}
+.preview-project .ttl {
+	font-size: 30px;
+    font-weight: bold;
+}
+.preview-project .decs {
+    font-size: 16px;
+    color: #787878;
+}
+.preview-project button {
+    background-color: #10c9c3;
+    border: none;
+    border-radius: 0px;
+    margin-top: 50px;
+    height: 50px;
+    width: 180px;
+}
+
+ 

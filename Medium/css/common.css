@@ -1,0 +1,42 @@
+/* Common */
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #999999;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+	color: #282828;
+}
+
+a:focus {
+	outline: none;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.holder {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.clearfix {
+	margin: 0;
+	padding: 0;
+  list-style-type: none;
+}
+.display-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+/* END: Common */
