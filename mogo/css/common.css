@@ -1,0 +1,54 @@
+
+/* Common */
+* {
+	font-family: "Montserrat", sans-serif;
+	box-sizing: border-box;
+}
+html, body {
+	position: relative;
+	height: 100%;
+}
+body {
+	margin:  0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+.holder {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.margin-item {
+	margin: 100px auto;
+}
+.clear {
+	clear: both;
+	display: block;
+}
+.clearfix {
+	list-style-type: none;
+}
+.clearfix li a {
+	text-decoration: none;
+	font-weight: 500;
+}
+.img-round {
+	border-radius: 50%;
+}
+.img-round img {
+	border-radius: 50%;
+}
+.img_1 {
+	height: 780px;
+}
+.img_2 {
+	height: 390px
+}
+/* END: Common */
