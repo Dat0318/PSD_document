@@ -1,60 +1,60 @@
-
 /* Header */
 .header {
-	position: absolute;
-	left: 0;
-	right: 0;
-	padding: 38px 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 38px 0;
+  z-index: 1;
 }
 .header .holder {
 }
 /* Logo */
-.header .logo{
-	float: left;
-	left: 0px;
+.header .logo {
+  float: left;
+  left: 0px;
 }
-.header .logo img{}
+.header .logo img {
+}
 /* END: Logo */
 
 /* Menu */
-.header .menu{
-	float: right;
-	right: 0px;
+.header .menu {
+  float: right;
+  right: 0px;
 }
-.header .menu ul .menu-hide{
-	
+.header .menu ul .menu-hide {
 }
-.header .menu ul{
-	display: flex;
+.header .menu ul {
+  display: flex;
 }
-.header .menu ul li{
-	margin-left: 28px;
+.header .menu ul li {
+  margin-left: 28px;
 }
-.header .menu ul li a{
-	font-weight: bold;
-	color: #191919;
-	font-size: 12px;
-	letter-spacing: 2px;
+.header .menu ul li a {
+  font-weight: bold;
+  color: #191919;
+  font-size: 12px;
+  letter-spacing: 2px;
 }
-.header .menu ul .active a{
-	color: #10c9c3;
+.header .menu ul .active a {
+  color: #10c9c3;
 }
 .header .menu-icon {
-	display: none;
-	float: right;
+  display: none;
+  float: right;
 }
 .header .menu-icon i {
-	font-weight: bold;
-	color: #191919;
-	font-size: 38px;
+  font-weight: bold;
+  color: #191919;
+  font-size: 38px;
 }
 /* Responsive */
 @media screen and (max-width: 800px) {
-	.header .menu ul li{
-		display: none;
-	}
-	.header .menu-icon {
-		display: block;
-	}
+  .header .menu ul li {
+    display: none;
+  }
+  .header .menu-icon {
+    display: block;
+  }
 }
 /* END: Menu */

@@ -1,55 +1,58 @@
+.header {
+  position: relative;
+}
 .intro {
-	height: 300px;
-	padding-top: 100px;
-	text-align: center;
+  height: 300px;
+  padding-top: 100px;
+  text-align: center;
 }
 
-.intro .ttl{
-	font-size: 38px;
-	font-family: "Myriad Pro","sans-serif";
+.intro .ttl {
+  font-size: 38px;
+  font-family: 'Myriad Pro', 'sans-serif';
 }
-.intro .desc{
-	width: 480px;
-	margin: 0px auto;
-	font-size: 18px;
-	font-family: "Myriad Pro","sans-serif";
-	color: #787878;
+.intro .desc {
+  width: 480px;
+  margin: 0px auto;
+  font-size: 18px;
+  font-family: 'Myriad Pro', 'sans-serif';
+  color: #787878;
 }
 
-.product{
-	/* display: grid; */
-	/* grid-template-columns: 350px 350px 350px 350px; */
-	/* grid-template-rows: 300px 300px 300px; */
-	display: flex;
-	flex-wrap: wrap;
+.product {
+  /* display: grid; */
+  /* grid-template-columns: 350px 350px 350px 350px; */
+  /* grid-template-rows: 300px 300px 300px; */
+  display: flex;
+  flex-wrap: wrap;
 }
-.product .item{
-	background-color: #2dc9c5;
-	position: relative;
-	width: 25%;
+.product .item {
+  background-color: #2dc9c5;
+  position: relative;
+  width: 25%;
 }
-.product .item i{
-	top: 50%;
-	left: 50%;
-	font-size: 40px;
-	color: #fff;
-	position: absolute;
-	z-index: 1;
-	display: none;
-	transform: translate(-50%, -50%);
+.product .item i {
+  top: 50%;
+  left: 50%;
+  font-size: 40px;
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  display: none;
+  transform: translate(-50%, -50%);
 }
-.product .item :hover img{
-	opacity: 0.5;
+.product .item :hover img {
+  opacity: 0.5;
 }
-.product .item :hover i{
-	display: block;
-	opacity: 1;
+.product .item :hover i {
+  display: block;
+  opacity: 1;
 }
-.product .item :hover
-.product .item a{}
-.product .item img{
-	width: 100%;
-	height: 300px;
-	object-fit: cover;
-	object-position: center center;
+.product .item :hover .product .item a {
+}
+.product .item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center center;
 }
