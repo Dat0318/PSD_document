@@ -73,7 +73,7 @@ a {
   z-index: 99;
 
   &-show-ads {
-    &+.main {
+    & + .main {
       margin-top: 60px;
     }
     .advertiserment {
@@ -85,7 +85,7 @@ a {
     display: none;
     width: 100vw;
     background-color: $bg-ad;
-  
+
     .wrapper {
       position: relative;
       width: 100%;
@@ -95,7 +95,7 @@ a {
       padding-left: 35px;
       padding-right: 15px;
     }
-  
+
     .btn-close-ad {
       position: absolute;
       top: 50%;
@@ -104,27 +104,27 @@ a {
       background: none;
       border: none;
       padding: 3px;
-  
+
       img {
         width: 10px;
         height: 10px;
       }
     }
-  
+
     .quad-logo {
       width: 45px;
       height: 45px;
-      
+
       img {
         width: 100%;
         height: 100%;
       }
     }
-  
+
     .content {
       margin-left: 10px;
       font-size: 11px;
-  
+
       p {
         line-height: 12px;
       }
@@ -272,7 +272,7 @@ a {
   min-height: 100%;
   position: inherit;
   overflow-y: auto;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 
   &-head {
     position: relative;
@@ -441,7 +441,7 @@ a {
 
     .btn-inquiry {
       line-height: 30px;
-      background-color: #C9C9C985;
+      background-color: #c9c9c985;
       width: 220px;
       border: 1px solid #707070;
       position: relative;
@@ -490,7 +490,7 @@ a {
       width: 220px;
       line-height: 30px;
       background-color: #c9c9c985;
-      border: 1px solid #B4B4B4;
+      border: 1px solid #b4b4b4;
     }
 
     .btn-zb {
@@ -533,7 +533,6 @@ a {
       margin-top: 20px;
     }
   }
-
 
   .main-footer {
     padding: 25px;
@@ -583,8 +582,7 @@ a {
       color: $text-light-gray;
     }
   }
-}// .main
-
+} // .main
 
 .footer-menu {
   @include display-flex();
@@ -656,9 +654,9 @@ a {
 
 // .footer-menu
 
-
 // MARGIN TOP
-.mt-10, .my-10 {
+.mt-10,
+.my-10 {
   margin-top: 10px !important;
 }
 
@@ -666,19 +664,23 @@ a {
   margin-top: 15px !important;
 }
 
-.mt-20, .my-20 {
+.mt-20,
+.my-20 {
   margin-top: 20px !important;
 }
 
-.mt-30, .my-30 {
+.mt-30,
+.my-30 {
   margin-top: 30px !important;
 }
 
-.mt-40, .my-40 {
+.mt-40,
+.my-40 {
   margin-top: 40px !important;
 }
 
-.mt-50, .my-50 {
+.mt-50,
+.my-50 {
   margin-top: 50px !important;
 }
 
@@ -686,173 +688,212 @@ a {
   margin-top: 60px !important;
 }
 
-.mt-100, .my-100 {
+.mt-100,
+.my-100 {
   margin-top: 100px !important;
 }
 // END MARGIN TOP
 
 // MARGIN BOTTOM
-.mb-10, .my-10 {
+.mb-10,
+.my-10 {
   margin-bottom: 10px !important;
 }
 
-.mb-20, .my-20 {
+.mb-20,
+.my-20 {
   margin-bottom: 20px !important;
 }
 
-.mb-30, .my-30 {
+.mb-30,
+.my-30 {
   margin-bottom: 30px !important;
 }
 
-.mb-40, .my-40 {
+.mb-40,
+.my-40 {
   margin-bottom: 40px !important;
 }
 
-.mb-50, .my-50 {
+.mb-50,
+.my-50 {
   margin-bottom: 50px !important;
 }
 
-.mb-100, .my-100 {
+.mb-100,
+.my-100 {
   margin-bottom: 100px !important;
 }
 // END MARGIN BOTTOM
 
 // MARGIN RIGHT
-.mr-10, .mx-10 {
+.mr-10,
+.mx-10 {
   margin-right: 10px !important;
 }
 
-.mr-20, .mx-20 {
+.mr-20,
+.mx-20 {
   margin-right: 20px !important;
 }
 
-.mr-30, .mx-30 {
+.mr-30,
+.mx-30 {
   margin-right: 30px !important;
 }
 
-.mr-40, .mx-40 {
+.mr-40,
+.mx-40 {
   margin-right: 40px !important;
 }
 
-.mr-50, .mx-50 {
+.mr-50,
+.mx-50 {
   margin-right: 50px !important;
 }
 // END MARGIN RIGH
 
 // MARGIN LEFT
-.ml-10, .mx-10 {
+.ml-10,
+.mx-10 {
   margin-left: 10px !important;
 }
 
-.ml-20, .mx-20 {
+.ml-20,
+.mx-20 {
   margin-left: 20px !important;
 }
 
-.ml-30, .mx-30 {
+.ml-30,
+.mx-30 {
   margin-left: 30px !important;
 }
 
-.ml-40, .mx-40 {
+.ml-40,
+.mx-40 {
   margin-left: 40px !important;
 }
 
-.ml-50, .mx-50 {
+.ml-50,
+.mx-50 {
   margin-left: 50px !important;
 }
 // END MARGIN LEFT
 
 // PADDING TOP
-.pt-10, .py-10 {
+.pt-10,
+.py-10 {
   padding-top: 10px !important;
 }
 
-.pt-20, .py-20 {
+.pt-20,
+.py-20 {
   padding-top: 20px !important;
 }
 
-.pt-30, .py-30 {
+.pt-30,
+.py-30 {
   padding-top: 30px !important;
 }
 
-.pt-40, .py-40 {
+.pt-40,
+.py-40 {
   padding-top: 40px !important;
 }
 
-.pt-50, .py-50 {
+.pt-50,
+.py-50 {
   padding-top: 50px !important;
 }
 
-.pt-100, .py-100 {
+.pt-100,
+.py-100 {
   padding-top: 100px !important;
 }
 // END PADDING TOP
 
 // PADDING BOTTOM
-.pb-10, .py-10 {
+.pb-10,
+.py-10 {
   padding-bottom: 10px !important;
 }
 
-.pb-20, .py-20 {
+.pb-20,
+.py-20 {
   padding-bottom: 20px !important;
 }
 
-.pb-30, .py-30 {
+.pb-30,
+.py-30 {
   padding-bottom: 30px !important;
 }
 
-.pb-40, .py-40 {
+.pb-40,
+.py-40 {
   padding-bottom: 40px !important;
 }
 
-.pb-50, .py-50 {
+.pb-50,
+.py-50 {
   padding-bottom: 50px !important;
 }
 
-.pb-100, .py-100 {
+.pb-100,
+.py-100 {
   padding-bottom: 100px !important;
 }
 // END PADDING BOTTOM
 
 // PADDING RIGHT
-.pr-10, .px-10 {
+.pr-10,
+.px-10 {
   padding-right: 10px !important;
 }
 
-.pr-20, .px-20 {
+.pr-20,
+.px-20 {
   padding-right: 20px !important;
 }
 
-.pr-30, .px-30 {
+.pr-30,
+.px-30 {
   padding-right: 30px !important;
 }
 
-.pr-40, .px-40 {
+.pr-40,
+.px-40 {
   padding-right: 40px !important;
 }
 
-.pr-50, .px-50 {
+.pr-50,
+.px-50 {
   padding-right: 50px !important;
 }
 // END PADDING RIGHT
 
 // PADDING LEFT
-.pl-10, .px-10 {
+.pl-10,
+.px-10 {
   padding-left: 10px !important;
 }
 
-.pl-20, .px-20 {
+.pl-20,
+.px-20 {
   padding-left: 20px !important;
 }
 
-.pl-30, .px-30 {
+.pl-30,
+.px-30 {
   padding-left: 30px !important;
 }
 
-.pl-40, .px-40 {
+.pl-40,
+.px-40 {
   padding-left: 40px !important;
 }
 
-.pl-50, .px-50 {
+.pl-50,
+.px-50 {
   padding-left: 50px !important;
 }
 // END PADDING LEFT
