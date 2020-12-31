@@ -1,32 +1,31 @@
-
-*{
-	font-family: "Montserrat", sans-serif;
+* {
+  font-family: 'Montserrat', sans-serif;
 }
-body{
-	margin:  0px;
-	padding: 0px;
+body {
+  margin: 0px;
+  padding: 0px;
 }
-.margin-item{
-	margin: 100px 0px !important;
+.margin-item {
+  margin: 100px 0px !important;
 }
-.clear{
-	display: block;
-	clear: both;
+.clear {
+  display: block;
+  clear: both;
 }
-.clearfix{
-	list-style-type: none;
+.clearfix {
+  list-style-type: none;
 }
-.clearfix li a{
-	text-decoration: none;
-	color: #111;
+.clearfix li a {
+  text-decoration: none;
+  color: #111;
 }
-.holder{
-	max-width: 1170px;
-	margin:  0px auto;
+.holder {
+  max-width: 1170px;
+  margin: 0px auto;
 }
 .button-default {
-	letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 .button-default:focus {
-	background-color: #10c9c3;
+  background-color: #10c9c3;
 }

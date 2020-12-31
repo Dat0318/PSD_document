@@ -18,7 +18,7 @@
  https://github.com/Valve/fingerprintjs2
  Copyright (c) 2018? Jonas Haag (jonas@lophus.org)
  Copyright (c) 2015? Valentin Vasilyev (valentin.vasilyev@outlook.com)
- Licensed under the MIT (http://www.opensource.org/licenses/mit-license.php) license.
+ Licensed under the MIT (http://www.opensource.org/licenses/mit-license.html) license.
 */
 var _sift=_sift||[];function __siftFlashCB(u){_sift.push(["_setFlash",u])}window.__siftFlashCB=__siftFlashCB;
 var Sift=Sift||function(){function u(b,l){for(var k=q(b),g=b.length;0<k.length&&k.length>l;)g=Math.floor(g/2),k=q(b.substring(0,g));return k}function D(b){var l="",k=0,g;for(g in b)if(b.hasOwnProperty(g)){var i=b[g];void 0===i||(null===i||"undefined"===i||"null"===i)||(0<k&&(l+="&"),l+=g+"="+i,k++)}return l}function J(){var b=window.location.hostname,l=b.split(".");if(/^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/.test(b))return b;if(1==l.length)return null;for(var b="",k=0;2>k;){k++;var g=l[l.length-k],

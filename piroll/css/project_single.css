@@ -1,56 +1,62 @@
+.header {
+  position: relative;
+}
 
 .single-project {
-	display: flex;
-	height: 570px;
-	margin: 30px auto;
+  display: flex;
+  height: 570px;
+  margin: 30px auto;
 }
 .single-project .content {
-	flex: 1;
+  flex: 1;
 }
 .single-project .content .ttl {
-	font-size: 30px;
-	font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
 .single-project .content .decs {
-	font-size: 16px;
-	margin: 50px 0px;
+  font-size: 16px;
+  margin: 50px 0px;
 }
 .single-project .content .link {
-	font-size: 16px;
+  font-size: 16px;
 }
 .single-project .img-project {
-	flex: 1;
+  flex: 1;
 }
 .single-project .img-project img {
-	width: 100%;
-	height: 100%;
-	object-position: center center;
-	object-fit: cover
+  width: 100%;
+  height: 100%;
+  object-position: center center;
+  object-fit: cover;
 }
 
 .project-control {
-	padding: 35px 0px;
-	height: 100px;
+  padding: 35px 0px;
+  height: 100px;
+  display: flex;
 }
 .project-control a {
-	text-decoration: none;
-	color: #111;
+  text-decoration: none;
+  color: #111;
 }
 .project-control i {
-	font-size: 30px;
-	font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
 .project-control .prev {
-	float: left;
-	width: calc(100%/3);
+  width: calc(100% / 3);
+  display: flex;
+  align-items: center;
 }
 .project-control .gird {
-	float: left;
-	width: calc(100%/3);
-	text-align: center;
+  width: calc(100% / 3);
+  justify-content: center;
+  display: flex;
 }
 .project-control .next {
-	float: right;
-	width: calc(100%/3);
-	text-align: right;
+  width: calc(100% / 3);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
