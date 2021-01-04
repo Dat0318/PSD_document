@@ -64,6 +64,7 @@
 .slider .swiper-container .swiper-wrapper {
 }
 .slider .swiper-container .swiper-wrapper .swiper-slide {
+  padding-top: 140px;
 }
 .slider-ttl {
   font-size: 85px;
