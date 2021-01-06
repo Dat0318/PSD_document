@@ -206,7 +206,8 @@
 .aboutUs-image {
   display: flex;
   flex-wrap: wrap;
-  margin: 100px -15px 0;
+  margin: 100px auto 0;
+  width: 100%;
 }
 .aboutUs-image-item {
   position: relative;
@@ -893,7 +894,8 @@
 .ourTeam-body-listItem {
   display: flex;
   flex-wrap: wrap;
-  margin: 100px -15px 0;
+  margin: 100px auto 0;
+  width: 100%;
 }
 .ourTeam-body-listItem-item {
   position: relative;

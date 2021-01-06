@@ -7,7 +7,7 @@
   align-items: center;
 }
 .logo {
-  padding: 22.5px 0;
+  padding: 9px 0;
 }
 .logo__img {
 }
@@ -24,12 +24,13 @@
   display: inline-block;
   width: 11px;
   border: 0.84px solid #fff;
-  margin: 0 24px;
+  margin: 0 20px;
   vertical-align: middle;
 }
 .menu-list-item a {
   color: #fff;
   letter-spacing: 2px;
+  font-size: 12px;
 }
 .menu-social {
   display: flex;
@@ -101,6 +102,7 @@
   margin-bottom: 130px;
   padding: 10px 40px 13px 40px;
   display: inline-block;
+  border-radius: 6px;
 }
 
 .text-more {
@@ -163,6 +165,7 @@
   background-color: #27364a;
   margin-top: 40px;
   display: inline-block;
+  border-radius: 4px;
 }
 .btn-more {
 }
@@ -402,7 +405,7 @@
 }
 .footer-top {
   background-color: #27364a;
-  padding: 90px 0 70px;
+  padding: 25px 0 35px;
 }
 .footer-top .holder {
   display: flex;
@@ -417,8 +420,8 @@
 .footer-top-ttl {
   width: 100%;
   color: #fff;
-  font-size: 25px;
-  margin-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 8px;
 }
 
 .footer-top-location-block {
@@ -426,7 +429,8 @@
 }
 .footer-top-location-block__address {
   color: #fff;
-  line-height: 30px;
+  line-height: 18px;
+  font-size: 13px;
 }
 .footer-top-time {
   width: 50%;
@@ -438,26 +442,30 @@
 }
 .footer-top-time-block__day {
   color: #fff;
-  line-height: 30px;
+  line-height: 18px;
+  font-size: 12px;
 }
 .footer-top-time-block__open {
   color: #fff;
-  line-height: 30px;
+  line-height: 18px;
+  font-size: 12px;
 }
 .footer-bottom {
   background-color: #151d25;
   display: flex;
-  padding: 25px 0;
+  padding: 6px 0;
 }
 
 .footer-bottom .holder {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items: center;
 }
 
 .footer-bottom__copyright {
   color: #fff;
+  font-size: 10px;
 }
 .footer-bottom-list {
   display: flex;
