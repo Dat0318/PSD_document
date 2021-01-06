@@ -1,14 +1,6 @@
 .header {
-  position: relative;
-}
-.header-background {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  object-fit: cover;
+  background-image: url('../images/banner_top.jpg');
+  background-size: cover;
 }
 .header-top {
   display: flex;
@@ -74,6 +66,7 @@
 }
 .download {
   display: flex;
+  flex-wrap: wrap;
   top: -120px;
   position: relative;
 }
@@ -150,7 +143,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
 
@@ -189,6 +182,7 @@
   color: #5a5a5a;
   width: 60%;
   margin: 0 auto;
+  font-size: 16px;
 }
 .plan-list {
   display: flex;
@@ -196,49 +190,97 @@
 }
 .plan-item {
   width: 33.33%;
+  padding: 40px 0;
+  background-color: #fff;
+  margin: 0 40px;
 }
 .plan-item-ttl {
+  font-size: 18px;
+  color: #5a5a5a;
 }
 .plan-item-price {
+  margin: 50px 0;
+  font-size: 70px;
+  color: #25365d;
+  font-weight: 500;
+}
+.plan-item-price::first-letter {
+  font-size: 40px;
 }
 .plan-item-current {
+  font-size: 22px;
+  color: #5a5a5a;
 }
 .plan-item-desc {
+  font-size: 18px;
+  color: #5a5a5a;
 }
 
 .call-center {
 }
 .call-center-img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 .call-center-ttl {
+  font-size: 22px;
+  color: #25365d;
+  margin: 25px 0;
 }
 .call-center-desc {
+  font-size: 16px;
+  color: #5a5a5a;
+  width: 34%;
+  margin: 0 auto;
+  line-height: 35px;
 }
 .call-center-list {
+  display: inline-flex;
+  margin-top: 40px;
 }
 .call-center-item {
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
 }
 .call-center-icon {
+  font-size: 25px;
+  margin-right: 8px;
 }
 .call-center-text {
+  font-size: 20px;
+  color: #25365d;
+  font-weight: 600;
 }
 
 .load {
-}
-.load-background {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  object-fit: cover;
+  background-image: url('../images/banner_bottom.jpg');
+  background-size: cover;
+  padding: 140px 0;
+  text-align: center;
 }
 .load-ttl {
+  font-size: 70px;
+  color: #25365d;
 }
 .load-desc {
+  font-size: 16px;
+  color: #5a5a5a;
+  line-height: 40px;
+  margin: 0 auto;
+  width: 72%;
 }
 .load-btn {
+  color: #fff;
+  background-color: #25365d;
+  padding: 10px 30px;
+  border-radius: 40px;
+  margin-top: 30px;
+  margin-bottom: 70vh;
+  display: inline-block;
 }
 .load-btn i {
+  color: #7f97be;
+  margin-right: 10px;
 }
