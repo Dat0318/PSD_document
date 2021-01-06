@@ -8,6 +8,8 @@ body {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -24,14 +26,23 @@ img {
   vertical-align: middle;
 }
 
-.Holder {
-  max-width: 1170px;
+.holder {
+  max-width: 1500px;
   margin: 0 auto;
 }
 
-.Clearfix {
+.clearfix {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
 }
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+
 /* END: Common */
