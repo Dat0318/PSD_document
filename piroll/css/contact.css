@@ -4,10 +4,11 @@
 
 .contact {
   display: flex;
-  padding: 50px 0;
+  flex-wrap: wrap;
+  padding: 50px 10px;
 }
 .contact .contact-info {
-  flex: 1;
+  width: 50%;
 }
 .contact .contact-info .ttl {
   font-size: 30px;
@@ -15,13 +16,16 @@
 .contact .contact-info .decs {
   font-size: 16px;
   margin: 40px 0px;
+  width: 78%;
 }
 .contact .contact-info .link {
   font-size: 16px;
+  margin-left: 5%;
 }
 
 .contact .contact-form {
-  flex: 1;
+  width: 50%;
+  min-width: 420px;
 }
 .contact .contact-form .form-row {
 }
@@ -34,6 +38,7 @@
   font-size: 16px;
   border-radius: 0px;
   border: none;
+  border-bottom: 1px solid #ececec;
 }
 .contact .contact-form button {
   background-color: #39b4af;
@@ -41,6 +46,7 @@
   font-weight: bold;
   border-radius: 0px;
   border: none;
+  margin-left: 15px;
 }
 
 .map {
@@ -48,5 +54,45 @@
 }
 .map iframe {
   width: 100%;
-  height: 470px;
+  height: 30vw;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 900px) {
+  .map iframe {
+    height: 60vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  .contact {
+    padding: 0 10px;
+  }
+  .contact .contact-info,
+  .contact .contact-form {
+    width: 100%;
+    min-width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .contact .contact-info .decs {
+    margin: 10px auto;
+  }
+}
+@media screen and (max-width: 950px) {
+  .contact .contact-info .ttl {
+    font-size: 24px;
+  }
+  .contact .contact-info .decs,
+  .contact .contact-info .link,
+  .contact .contact-form .form-row input {
+    font-size: 13px;
+    width: 100%;
+  }
+  .contact .contact-info .link {
+    margin-left: 0;
+  }
+  .map {
+    margin: 50px 0;
+  }
 }

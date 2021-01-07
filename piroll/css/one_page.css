@@ -59,7 +59,7 @@ body {
 @media screen and (max-width: 1000px) {
   .new-product .new-product-info {
     width: 100%;
-    /* padding-top: 30%; */
+    padding-top: 30%;
     padding-left: 0;
     text-align: center;
     justify-content: center;
@@ -115,6 +115,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
+  padding: 0 10px;
 }
 .skill .skill-pro {
   width: 50%;
@@ -216,8 +217,8 @@ body {
 }
 @media screen and (max-width: 580px) {
   .achievement .item {
-    width: 100%;
-    margin: 0px 140px;
+    width: 60%;
+    margin: 0px auto;
   }
 }
 /* END: Achivement- thanh tich */
@@ -575,16 +576,10 @@ body {
 @media screen and (max-width: 580px) {
   .contact-form .form-row input {
     font-size: 12px;
+    margin-bottom: 10px;
   }
   .contact-form .form-row textarea {
     font-size: 12px;
   }
 }
 /* END: Contact form */
-
-/* Reponsive */
-@media screen and (max-width: 1000px) {
-  .holder {
-    padding: 0 10px;
-  }
-}

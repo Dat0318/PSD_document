@@ -20,16 +20,18 @@
 
 .achievement {
   background-color: #39b4af;
-  height: 240px;
 }
 .achievement .holder {
   display: flex;
+  flex-wrap: wrap;
 }
 .achievement .item {
-  flex: 1;
+  width: 25%;
   color: #fff;
   font-weight: bold;
-  padding-top: 95px;
+  padding: 80px 10px;
+  display: flex;
+  justify-content: center;
 }
 .achievement .item i {
   font-size: 40px;
@@ -48,12 +50,12 @@
 }
 
 .about {
-  height: 560px;
   display: flex;
+  flex-wrap: wrap;
 }
 .about .img {
   width: 50%;
-  height: 100%;
+  height: 560px;
 }
 .about .img img {
   height: 100%;
@@ -100,4 +102,36 @@
   margin-top: 50px;
   height: 50px;
   width: 180px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1150px) {
+  .achievement .item {
+    width: 50%;
+    padding: 60px 10px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about .img,
+  .about .content {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .intro-about {
+    padding-top: 36%;
+  }
+  .intro-about .ttl {
+    font-size: 24px;
+  }
+  .intro-about .desc {
+    font-size: 15px;
+  }
+  .achievement .item {
+    width: 50%;
+    padding: 50px 10px;
+  }
 }

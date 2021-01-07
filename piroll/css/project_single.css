@@ -4,11 +4,12 @@
 
 .single-project {
   display: flex;
-  height: 570px;
+  flex-wrap: wrap;
   margin: 30px auto;
+  padding: 0 10px;
 }
 .single-project .content {
-  flex: 1;
+  width: 50%;
 }
 .single-project .content .ttl {
   font-size: 30px;
@@ -17,16 +18,17 @@
 .single-project .content .decs {
   font-size: 16px;
   margin: 50px 0px;
+  padding-right: 10px;
 }
 .single-project .content .link {
   font-size: 16px;
 }
 .single-project .img-project {
-  flex: 1;
+  width: 50%;
 }
 .single-project .img-project img {
   width: 100%;
-  height: 100%;
+  height: 570px;
   object-position: center center;
   object-fit: cover;
 }
@@ -59,4 +61,19 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+/* Responsive */
+@media screen and (max-width: 900px) {
+  .single-project .content,
+  .single-project .img-project {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .single-project .img-project img {
+    height: 90vw;
+  }
 }

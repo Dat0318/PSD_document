@@ -56,3 +56,15 @@
   object-fit: cover;
   object-position: center center;
 }
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+  .product .item {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .product .item {
+    width: 100%;
+  }
+}
