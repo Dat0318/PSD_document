@@ -1,0 +1,243 @@
+/* COMMON */
+/* font-family: 'Herr Von Muellerhoff', cursive; */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #282828;
+}
+
+a:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.holder {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.clearfix {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+/* END: COMMON */
+.header {
+  background-image: url('./5.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+}
+.header .holder {
+  position: relative;
+}
+.header-top {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  width: 251px;
+  text-align: right;
+}
+.header-desc {
+  font-size: 14px;
+  color: #fff;
+}
+.header-read-more {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: underline;
+}
+.header-ttl {
+  font-size: 60px;
+  color: #fff;
+  padding-top: 26vh;
+  padding-left: 250px;
+}
+
+.introduction {
+  display: flex;
+  flex-wrap: wrap;
+}
+.introduction-left {
+  width: 33.33%;
+  background-color: #000;
+}
+.avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.signture {
+  font-size: 40px;
+  color: #fff;
+  font-family: 'Herr Von Muellerhoff', cursive;
+}
+.name,
+.position {
+  font-size: 14px;
+  color: #fff;
+}
+.name {
+}
+.position {
+}
+.introduction-right {
+  width: 66.66%;
+  background-color: #fff;
+}
+.about-me {
+  height: 50%;
+}
+.about-ttl {
+  font-size: 14px;
+  color: #000;
+}
+.about-desc {
+  font-size: 14px;
+  color: #000;
+}
+.what-do .about-ttl,
+.what-do .about-desc {
+  color: #fff;
+}
+.what-do {
+  background-color: #a0b9bd;
+}
+.project {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-item {
+  width: 33.33%;
+  height: 400px;
+  position: relative;
+}
+.project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.project-name {
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outstanding {
+  display: flex;
+  flex-wrap: wrap;
+}
+.outstanding-item {
+  width: 33.33%;
+}
+.outstanding-item1 {
+  width: 100%;
+}
+.outstanding-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.outstanding-name {
+  font-size: 14px;
+  color: #fff;
+}
+.outstanding-sign {
+  font-size: 14px;
+  color: #fff;
+}
+.outstanding-ttl {
+  font-size: 14px;
+  color: #fff;
+}
+.outstanding-banner {
+  width: 100%;
+  height: 100%;
+}
+.outstanding-header {
+  font-size: 14px;
+  color: #fff;
+}
+.outstanding-body {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.outstanding-desc {
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #000;
+  padding-top: 30px;
+}
+.footer-item {
+  width: 33.33%;
+}
+.footer-ttl {
+  font-size: 14px;
+  color: #fff;
+}
+.social {
+}
+.social-item {
+}
+.social-link {
+}
+.social-link i {
+}
+.phone {
+  font-size: 14px;
+  color: #fff;
+}
+.email {
+  font-size: 14px;
+  color: #fff;
+}
+.footer-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.footer-text {
+}
