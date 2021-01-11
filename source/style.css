@@ -60,17 +60,19 @@ li {
   position: absolute;
   top: 20px;
   right: 40px;
-  width: 251px;
+  width: 298px;
   text-align: right;
 }
 .header-desc {
   font-size: 14px;
   color: #fff;
+  margin-bottom: 20px;
 }
 .header-read-more {
   font-size: 14px;
   color: #fff;
   text-decoration: underline;
+  font-weight: 600;
 }
 .header-ttl {
   font-size: 60px;
@@ -117,7 +119,9 @@ li {
   font-size: 14px;
   color: #fff;
 }
-.name {margin: 20px 0px 5px 0;}
+.name {
+  margin: 20px 0px 5px 0;
+}
 .position {
 }
 .introduction-right {
@@ -150,6 +154,22 @@ li {
   width: 33.33%;
   height: 400px;
   position: relative;
+  overflow: hidden;
+}
+.project-item:hover .project-img {
+  transform: scale(1.05);
+  transition: 0.4s ease-in-out;
+}
+.project-item:hover .project-name {
+  display: flex;
+  font-size: 45px;
+  text-align: center;
+  background: rgb(235, 185, 127);
+  background: linear-gradient(
+    0deg,
+    rgba(235, 185, 127, 0.8183648459383753) 5%,
+    rgba(252, 250, 239, 0.17130602240896353) 100%
+  );
 }
 .project-img {
   width: 100%;
@@ -167,6 +187,8 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: none;
+  transition: 0.4s;
 }
 .outstanding {
   display: flex;
