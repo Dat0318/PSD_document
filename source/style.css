@@ -51,6 +51,7 @@ li {
   background-position: center;
   background-size: cover;
   height: 40vh;
+  min-height: 300px;
 }
 .header .holder {
   position: relative;
@@ -85,12 +86,16 @@ li {
 .introduction-left {
   width: 33.33%;
   background-color: #000;
+  text-align: center;
+  position: relative;
+  padding: 40px 0;
 }
 .avatar {
   width: 160px;
   height: 160px;
   border-radius: 50%;
   overflow: hidden;
+  margin: 0 auto;
 }
 .avatar-img {
   width: 100%;
@@ -102,14 +107,17 @@ li {
   font-size: 40px;
   color: #fff;
   font-family: 'Herr Von Muellerhoff', cursive;
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  transform: translateX(0%);
 }
 .name,
 .position {
   font-size: 14px;
   color: #fff;
 }
-.name {
-}
+.name {margin: 20px 0px 5px 0;}
 .position {
 }
 .introduction-right {
@@ -163,6 +171,7 @@ li {
 .outstanding {
   display: flex;
   flex-wrap: wrap;
+  background-color: #a0b9bd;
 }
 .outstanding-item {
   width: 33.33%;
@@ -171,7 +180,7 @@ li {
   width: 100%;
 }
 .outstanding-img {
-  width: 100%;
+  width: 340px;
   height: 100%;
   object-fit: cover;
 }
